@@ -32,3 +32,9 @@
 /workspaces/EShopping/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.pdb
 /workspaces/EShopping/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.genruntimeconfig.cache
 /workspaces/EShopping/Services/Catalog/Catalog.API/obj/Debug/net8.0/ref/Catalog.API.dll
+/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalgo.Application.dll
+/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Core.dll
+/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Infrastructure.dll
+/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalgo.Application.pdb
+/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Infrastructure.pdb
+/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Core.pdb

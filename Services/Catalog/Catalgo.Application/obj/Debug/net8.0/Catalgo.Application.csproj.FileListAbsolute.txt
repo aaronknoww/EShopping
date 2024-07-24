@@ -10,3 +10,7 @@
 /workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/refint/Catalgo.Application.dll
 /workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalgo.Application.pdb
 /workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/ref/Catalgo.Application.dll
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/bin/Debug/net8.0/Catalog.Core.dll
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/bin/Debug/net8.0/Catalog.Core.pdb
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalgo.Application.csproj.AssemblyReference.cache
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalgo..8BC79117.Up2Date
