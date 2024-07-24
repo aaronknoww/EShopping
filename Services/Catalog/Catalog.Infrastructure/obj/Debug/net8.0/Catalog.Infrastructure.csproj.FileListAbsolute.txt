@@ -1,0 +1,12 @@
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/bin/Debug/net8.0/Catalog.Infrastructure.deps.json
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/bin/Debug/net8.0/Catalog.Infrastructure.dll
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/bin/Debug/net8.0/Catalog.Infrastructure.pdb
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/Catalog.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/Catalog.Infrastructure.AssemblyInfoInputs.cache
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/Catalog.Infrastructure.AssemblyInfo.cs
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/Catalog.Infrastructure.csproj.CoreCompileInputs.cache
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/Catalog.Infrastructure.sourcelink.json
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/Catalog.Infrastructure.dll
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/refint/Catalog.Infrastructure.dll
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/Catalog.Infrastructure.pdb
+/workspaces/EShopping/Services/Catalog/Catalog.Infrastructure/obj/Debug/net8.0/ref/Catalog.Infrastructure.dll
