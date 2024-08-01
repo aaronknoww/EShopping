@@ -1,0 +1,26 @@
+[
+    {
+        "Id" : "602a5eadadfadsfaaf5",
+        "Name": "Adidas Quick Force Indoor Shoes",
+        "Description" : "Deisgned for professional as well as amateurs players",
+        "Price": 199,
+        "ImageFile": "images/products/adidas_shoe-1.png",
+        "Types":{
+            "Id":"63ca5eadadf4354634f5",
+            "Name":"Adidas"
+        }
+
+    },
+    {
+        "Id" : "602a5eadadfawerwer",
+        "Name": "Adidas Nova",
+        "Description" : "A football with the newest technologi",
+        "Price": 250,
+        "ImageFile": "images/products/adidas_ball-1.png",
+        "Types":{
+            "Id":"63ca5eadadf435rewf10",
+            "Name":"Adidas"
+        }
+
+    }
+]

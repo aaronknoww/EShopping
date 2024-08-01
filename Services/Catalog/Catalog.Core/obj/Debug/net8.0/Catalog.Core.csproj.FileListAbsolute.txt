@@ -10,3 +10,4 @@
 /workspaces/EShopping/Services/Catalog/Catalog.Core/obj/Debug/net8.0/refint/Catalog.Core.dll
 /workspaces/EShopping/Services/Catalog/Catalog.Core/obj/Debug/net8.0/Catalog.Core.pdb
 /workspaces/EShopping/Services/Catalog/Catalog.Core/obj/Debug/net8.0/ref/Catalog.Core.dll
+/workspaces/EShopping/Services/Catalog/Catalog.Core/obj/Debug/net8.0/Catalog.Core.csproj.AssemblyReference.cache
