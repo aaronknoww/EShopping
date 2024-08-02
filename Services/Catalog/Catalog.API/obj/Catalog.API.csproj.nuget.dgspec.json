@@ -185,11 +185,11 @@
           "dependencies": {
             "AspNetCore.HealthChecks.MongoDb": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[8.0.1, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.19.2, )"
+              "version": "[2.27.0, )"
             }
           },
           "imports": [

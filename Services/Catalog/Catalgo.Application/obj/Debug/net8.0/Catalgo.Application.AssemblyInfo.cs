@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Catalgo.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac84183a488324be5bfa4524e088fa4410d20dd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+385eb55d3dc99dd170dca9ca554ff975c1b96172")]
 [assembly: System.Reflection.AssemblyProductAttribute("Catalgo.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Catalgo.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
