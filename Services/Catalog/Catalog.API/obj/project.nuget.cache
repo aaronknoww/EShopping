@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "2O9qYT7xAYo=",
+  "dgSpecHash": "qEJzBmDhLTc=",
   "success": true,
   "projectFilePath": "/workspaces/EShopping/Services/Catalog/Catalog.API/Catalog.API.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/aspnetcore.healthchecks.mongodb/8.0.1/aspnetcore.healthchecks.mongodb.8.0.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/codespace/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/home/codespace/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/8.0.7/microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

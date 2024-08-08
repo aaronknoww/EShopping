@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "njgWdq7NF1Y=",
+  "dgSpecHash": "BN3bFdYQV4Q=",
   "success": true,
   "projectFilePath": "/workspaces/EShopping/Services/Catalog/Catalgo.Application/Catalgo.Application.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/aspnetcore.healthchecks.mongodb/8.0.1/aspnetcore.healthchecks.mongodb.8.0.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/codespace/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/home/codespace/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
