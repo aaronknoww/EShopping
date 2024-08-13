@@ -25,7 +25,7 @@ public class GetAllBrandsHandler : IRequestHandler<GetAllBrandsQuery, IList<Bran
     {
         IEnumerable<ProductBrand> brandList = await _brandRepository.GetAllBrands();
         //IList<BrandResponse> brandResponseList = _mapper.Map<IList<BrandResponse>>(brandList);
-        IList<BrandResponse> brandResponseList = ProductMapper.Mapper.Map<IList<BrandResponse>>(brandList);
+        IList<BrandResponse> brandResponseList = ProductMapper.Mapper.Map<IList<ProductBrand>,IList<BrandResponse>>(brandList.ToList());
         return brandResponseList;
     }
 }
