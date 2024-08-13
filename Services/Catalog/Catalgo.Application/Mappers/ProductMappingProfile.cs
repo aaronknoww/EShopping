@@ -11,7 +11,8 @@ public class ProductMappingProfile : Profile
     {
         // To map classes of core project <-----> classes of Aplication Response 
         CreateMap<ProductBrand, BrandResponse>().ReverseMap();
-        CreateMap<Product, ProductResponse>().ReverseMap();         
+        CreateMap<Product, ProductResponse>().ReverseMap();
+        CreateMap<ProductType, TypeResponse>().ReverseMap();         
         
     }
 
