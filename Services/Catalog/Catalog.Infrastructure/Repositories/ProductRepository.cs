@@ -37,7 +37,7 @@ public class ProductRepository : IProductRepository, IBrandRepository, ITypesRep
         return await _context.Types.Find(type => true).ToListAsync();
     }
 
-    public async Task<Product> GetProduct(string id)
+    public async Task<Product> GetProductById(string id)
     {
         return await _context.Products.Find<Product>(p => p.Id == id).FirstOrDefaultAsync();
         
