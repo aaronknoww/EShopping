@@ -11,7 +11,7 @@ public interface IProductRepository
     //COMMANDS
     Task<Product> CreateProduct(Product product);
     Task<bool> UpdateProduct(Product product);
-    Task<bool> DeleteProduct(string id);
+    Task<bool> DeleteProductId(string id);
 
 
 

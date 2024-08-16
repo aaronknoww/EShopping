@@ -20,7 +20,7 @@ public class ProductRepository : IProductRepository, IBrandRepository, ITypesRep
         return product;
     }
 
-    public async Task<bool> DeleteProduct(string id)
+    public async Task<bool> DeleteProductId(string id)
     {
         DeleteResult deleteProduct = await _context.Products.DeleteOneAsync(p=>p.Id == id);
         return deleteProduct.IsAcknowledged && deleteProduct.DeletedCount > 0;
