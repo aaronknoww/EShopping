@@ -1,6 +1,8 @@
 
 namespace Catalog.API;
 
+//TODO: change this file with the confifuration in the videos.
+
 public class Program
 {
     public static void Main(string[] args)
