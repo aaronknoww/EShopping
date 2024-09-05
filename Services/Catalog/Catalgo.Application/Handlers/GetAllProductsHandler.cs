@@ -3,6 +3,7 @@ using Catalgo.Application.Mappers;
 using Catalgo.Application.Queries;
 using Catalgo.Application.Responses;
 using Catalog.Core;
+using Catalog.Core.Specs;
 using MediatR;
 
 namespace Catalgo.Application.Handlers;
@@ -18,7 +19,7 @@ public class GetAllProductsHandler : IRequestHandler<GetAllProductsQuery, IList<
     }
     public async Task<IList<ProductResponse>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
     {
-        IEnumerable<Product> productList = await _productRepository.GetProducts(); // Get data from infrestructure project 
+        IEnumerable<Product> productList = await _productRepository.GetProducts(CatalogSpecParams catalogSpecParams); // Get data from infrestructure project 
         IList<ProductResponse> productResponseList = ProductMapper.Mapper.Map<IList<ProductResponse>>(productList);
         return productResponseList;
     }
