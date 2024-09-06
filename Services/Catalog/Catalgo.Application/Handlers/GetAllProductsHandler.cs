@@ -9,7 +9,7 @@ using MediatR;
 namespace Catalgo.Application.Handlers;
 
 
-public class GetAllProductsHandler : IRequestHandler<GetAllProductsQuery, IList<ProductResponse>>
+public class GetAllProductsHandler : IRequestHandler<GetAllProductsQuery, Pagination<ProductResponse>>
 {
     private readonly IProductRepository _productRepository; // To have acceses to the methods that get all dataqueris
 
@@ -17,10 +17,10 @@ public class GetAllProductsHandler : IRequestHandler<GetAllProductsQuery, IList<
     {
         this._productRepository = productRepository;
     }
-    public async Task<IList<ProductResponse>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
+    public async Task<Pagination<ProductResponse>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
     {
-        IEnumerable<Product> productList = await _productRepository.GetProducts(CatalogSpecParams catalogSpecParams); // Get data from infrestructure project 
-        IList<ProductResponse> productResponseList = ProductMapper.Mapper.Map<IList<ProductResponse>>(productList);
+        var productList = await _productRepository.GetProducts(request.CatalogSpecParams); // Get data from infrestructure project 
+        Pagination<ProductResponse> productResponseList = ProductMapper.Mapper.Map<Pagination<ProductResponse>>(productList);
         return productResponseList;
     }
 }

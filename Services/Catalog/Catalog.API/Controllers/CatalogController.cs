@@ -3,6 +3,7 @@ using System.Net;
 using Catalgo.Application.Commands;
 using Catalgo.Application.Queries;
 using Catalgo.Application.Responses;
+using Catalog.Core.Specs;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -50,12 +51,12 @@ public class CatalogController : ApiController
 
     [HttpGet]
     [Route("GetAllProducts")]
-    [ProducesResponseType(typeof(IList<ProductResponse>), (int)HttpStatusCode.OK)]
+    [ProducesResponseType(typeof(Pagination<ProductResponse>), (int)HttpStatusCode.OK)]
     //[ProducesResponseType((int)HttpStatusCode.NotFound)]
-    public async Task<ActionResult<IList<ProductResponse>>> GetAllProducts()
+    public async Task<ActionResult<Pagination<ProductResponse>>> GetAllProducts([FromQuery]CatalogSpecParams catalogSpecParams)
     {
-        GetAllProductsQuery query = new GetAllProductsQuery();
-        IList<ProductResponse> result = await _mediator.Send(query);
+        GetAllProductsQuery query = new GetAllProductsQuery(catalogSpecParams);
+        Pagination<ProductResponse> result = await _mediator.Send(query);
         return Ok(result);
     }
 
