@@ -1,0 +1,12 @@
+/workspaces/EShopping/Services/Basket/Basket.Core/bin/Debug/net8.0/Basket.Core.deps.json
+/workspaces/EShopping/Services/Basket/Basket.Core/bin/Debug/net8.0/Basket.Core.dll
+/workspaces/EShopping/Services/Basket/Basket.Core/bin/Debug/net8.0/Basket.Core.pdb
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/Basket.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/Basket.Core.AssemblyInfoInputs.cache
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/Basket.Core.AssemblyInfo.cs
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/Basket.Core.csproj.CoreCompileInputs.cache
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/Basket.Core.sourcelink.json
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/Basket.Core.dll
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/refint/Basket.Core.dll
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/Basket.Core.pdb
+/workspaces/EShopping/Services/Basket/Basket.Core/obj/Debug/net8.0/ref/Basket.Core.dll
