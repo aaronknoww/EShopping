@@ -2,6 +2,7 @@ using Basket.Core.Entities;
 using Basket.Core.Repositories;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
+//using LanguageExt;
 
 namespace Basket.Infrastructure.Repositories;
 
@@ -29,7 +30,9 @@ public class BasketRepository : IBasketRepository
     }
     public async Task DeleteBasket(string userName)
     {
+
         // maybe a validation for empty string
         await _redisCache.RemoveAsync(userName);
+        return;
     }
 }
