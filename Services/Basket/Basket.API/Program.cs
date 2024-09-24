@@ -2,6 +2,7 @@ using System.Reflection;
 using Asp.Versioning;
 using Basket.Application.Handlers;
 using Basket.Core.Repositories;
+using Basket.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,7 +37,7 @@ builder.Services.AddStackExchangeRedisCache(options => {
 });
 
 //Application Services
-builder.Services.AddScoped<IBasketRepository, IBasketRepository>();
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 
 
 var app = builder.Build();

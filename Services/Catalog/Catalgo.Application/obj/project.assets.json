@@ -1230,9 +1230,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/EShopping/Services/Catalog/Catalgo.Application/Catalgo.Application.csproj",
-      "projectName": "Catalgo.Application",
-      "projectPath": "/workspaces/EShopping/Services/Catalog/Catalgo.Application/Catalgo.Application.csproj",
+      "projectUniqueName": "/workspaces/EShopping/Services/Catalog/Catalgo.Application/Catalog.Application.csproj",
+      "projectName": "Catalog.Application",
+      "projectPath": "/workspaces/EShopping/Services/Catalog/Catalgo.Application/Catalog.Application.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
       "outputPath": "/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/",
       "projectStyle": "PackageReference",
