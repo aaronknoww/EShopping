@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Discount.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Discount.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Discount.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Discount.Core/1.0.0": {
+      "type": "project",
+      "path": "../Discount.Core/Discount.Core.csproj",
+      "msbuildProject": "../Discount.Core/Discount.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Discount.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/codespace/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/workspaces/EShopping/Services/Discount/Discount.Core/Discount.Core.csproj": {
+              "projectPath": "/workspaces/EShopping/Services/Discount/Discount.Core/Discount.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

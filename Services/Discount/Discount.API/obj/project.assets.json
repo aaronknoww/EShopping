@@ -103,6 +103,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Discount.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Discount.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Discount.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Discount.Application.dll": {}
+        }
+      },
+      "Discount.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Discount.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Discount.Core.dll": {}
+        }
+      },
+      "Discount.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Discount.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Discount.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Discount.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -433,10 +469,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Discount.Application/1.0.0": {
+      "type": "project",
+      "path": "../Discount.Application/Discount.Application.csproj",
+      "msbuildProject": "../Discount.Application/Discount.Application.csproj"
+    },
+    "Discount.Core/1.0.0": {
+      "type": "project",
+      "path": "../Discount.Core/Discount.Core.csproj",
+      "msbuildProject": "../Discount.Core/Discount.Core.csproj"
+    },
+    "Discount.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Discount.Infrastructure/Discount.Infrastructure.csproj",
+      "msbuildProject": "../Discount.Infrastructure/Discount.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Discount.Application >= 1.0.0",
+      "Discount.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.7",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -465,7 +518,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/workspaces/EShopping/Services/Discount/Discount.Application/Discount.Application.csproj": {
+              "projectPath": "/workspaces/EShopping/Services/Discount/Discount.Application/Discount.Application.csproj"
+            },
+            "/workspaces/EShopping/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj": {
+              "projectPath": "/workspaces/EShopping/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
