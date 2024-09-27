@@ -1,0 +1,12 @@
+/workspaces/EShopping/Services/Discount/Discount.Core/bin/Debug/net8.0/Discount.Core.deps.json
+/workspaces/EShopping/Services/Discount/Discount.Core/bin/Debug/net8.0/Discount.Core.dll
+/workspaces/EShopping/Services/Discount/Discount.Core/bin/Debug/net8.0/Discount.Core.pdb
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/Discount.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/Discount.Core.AssemblyInfoInputs.cache
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/Discount.Core.AssemblyInfo.cs
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/Discount.Core.csproj.CoreCompileInputs.cache
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/Discount.Core.sourcelink.json
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/Discount.Core.dll
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/refint/Discount.Core.dll
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/Discount.Core.pdb
+/workspaces/EShopping/Services/Discount/Discount.Core/obj/Debug/net8.0/ref/Discount.Core.dll
