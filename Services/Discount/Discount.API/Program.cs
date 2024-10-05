@@ -1,44 +1,54 @@
+
+//using Common.Logging;
+using Discount.API.Services;
+using Discount.Application.Commands;
+using Discount.Application.Handlers;
+using Discount.Core.Repositories;
+using Discount.Infrastructure.Extensions;
+using Discount.Infrastructure.Repositories;
+//using Serilog;
+using System.Reflection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+//Serilog configuration
+//builder.Host.UseSerilog(Logging.ConfigureLogger);
+
+//Register AutoMapper
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
+//Register Mediatr
+var assemblies = new Assembly[]
+{
+    Assembly.GetExecutingAssembly(),
+    typeof(CreateDiscountCommandHandler).Assembly
+};
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
+builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
+builder.Services.AddGrpc();
 
 var app = builder.Build();
+
+//Migrate Database
+app.MigrateDatabase<Program>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseDeveloperExceptionPage();
 }
 
-app.UseHttpsRedirection();
+app.UseRouting();
 
-var summaries = new[]
+app.UseEndpoints(endpoints =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+    endpoints.MapGrpcService<DiscountService>();
+    endpoints.MapGet("/", async context =>
+    {
+        await context.Response.WriteAsync("Communication with grpc endpoints must be made through a grpc client");
+    });
+});
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
