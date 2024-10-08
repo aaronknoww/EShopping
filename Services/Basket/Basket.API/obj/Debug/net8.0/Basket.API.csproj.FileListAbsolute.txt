@@ -53,3 +53,10 @@
 /workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Newtonsoft.Json.dll
 /workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
 /workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/StackExchange.Redis.dll
+/workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Google.Protobuf.dll
+/workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Grpc.AspNetCore.Server.dll
+/workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Grpc.Core.Api.dll
+/workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Grpc.Net.Client.dll
+/workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Grpc.Net.ClientFactory.dll
+/workspaces/EShopping/Services/Basket/Basket.API/bin/Debug/net8.0/Grpc.Net.Common.dll
