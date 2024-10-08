@@ -637,6 +637,7 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Basket.Core": "1.0.0",
+          "Grpc.AspNetCore": "2.64.0",
           "MediatR": "12.3.0"
         },
         "compile": {
