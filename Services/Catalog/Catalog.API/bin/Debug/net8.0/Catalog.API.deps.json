@@ -9,7 +9,7 @@
       "Catalog.API/1.0.0": {
         "dependencies": {
           "Asp.Versioning.Mvc": "8.1.0",
-          "Catalgo.Application": "1.0.0",
+          "Catalog.Application": "1.0.0",
           "Catalog.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.7",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -353,14 +353,14 @@
           }
         }
       },
-      "Catalgo.Application/1.0.0": {
+      "Catalog.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Catalog.Core": "1.0.0",
           "MediatR": "12.3.0"
         },
         "runtime": {
-          "Catalgo.Application.dll": {}
+          "Catalog.Application.dll": {}
         }
       },
       "Catalog.Core/1.0.0": {
@@ -374,7 +374,7 @@
       },
       "Catalog.Infrastructure/1.0.0": {
         "dependencies": {
-          "Catalgo.Application": "1.0.0",
+          "Catalog.Application": "1.0.0",
           "Catalog.Core": "1.0.0",
           "Microsoft.Extensions.Configuration.Binder": "8.0.2"
         },
@@ -691,7 +691,7 @@
       "path": "zstdsharp.port/0.7.3",
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
-    "Catalgo.Application/1.0.0": {
+    "Catalog.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

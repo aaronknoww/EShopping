@@ -1,0 +1,16 @@
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/bin/Debug/net8.0/Catalog.Application.deps.json
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/bin/Debug/net8.0/Catalog.Application.dll
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/bin/Debug/net8.0/Catalog.Application.pdb
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/bin/Debug/net8.0/Catalog.Core.dll
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/bin/Debug/net8.0/Catalog.Core.pdb
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog.Application.csproj.AssemblyReference.cache
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog.Application.AssemblyInfoInputs.cache
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog.Application.AssemblyInfo.cs
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog.Application.csproj.CoreCompileInputs.cache
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog.Application.sourcelink.json
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog..75771DFE.Up2Date
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog.Application.dll
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/refint/Catalog.Application.dll
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/Catalog.Application.pdb
+/workspaces/EShopping/Services/Catalog/Catalgo.Application/obj/Debug/net8.0/ref/Catalog.Application.dll

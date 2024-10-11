@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ordering.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Oredering.Application": "1.0.0"
+        },
+        "runtime": {
+          "Ordering.Infrastructure.dll": {}
+        }
+      },
+      "Ordering.Core/1.0.0": {
+        "runtime": {
+          "Ordering.Core.dll": {}
+        }
+      },
+      "Oredering.Application/1.0.0": {
+        "dependencies": {
+          "Ordering.Core": "1.0.0"
+        },
+        "runtime": {
+          "Oredering.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ordering.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ordering.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oredering.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

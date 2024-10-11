@@ -32,10 +32,8 @@
 /workspaces/EShopping/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.pdb
 /workspaces/EShopping/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.genruntimeconfig.cache
 /workspaces/EShopping/Services/Catalog/Catalog.API/obj/Debug/net8.0/ref/Catalog.API.dll
-/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalgo.Application.dll
 /workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Core.dll
 /workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Infrastructure.dll
-/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalgo.Application.pdb
 /workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Infrastructure.pdb
 /workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Core.pdb
 /workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Asp.Versioning.Abstractions.dll
@@ -59,3 +57,5 @@
 /workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/runtimes/linux/native/libmongocrypt.so
 /workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/runtimes/osx/native/libmongocrypt.dylib
 /workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/runtimes/win/native/mongocrypt.dll
+/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Application.dll
+/workspaces/EShopping/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.Application.pdb

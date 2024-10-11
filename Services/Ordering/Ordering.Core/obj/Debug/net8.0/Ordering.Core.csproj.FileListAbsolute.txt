@@ -1,0 +1,12 @@
+/workspaces/EShopping/Services/Ordering/Ordering.Core/bin/Debug/net8.0/Ordering.Core.deps.json
+/workspaces/EShopping/Services/Ordering/Ordering.Core/bin/Debug/net8.0/Ordering.Core.dll
+/workspaces/EShopping/Services/Ordering/Ordering.Core/bin/Debug/net8.0/Ordering.Core.pdb
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/Ordering.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/Ordering.Core.AssemblyInfoInputs.cache
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/Ordering.Core.AssemblyInfo.cs
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/Ordering.Core.csproj.CoreCompileInputs.cache
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/Ordering.Core.sourcelink.json
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/Ordering.Core.dll
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/refint/Ordering.Core.dll
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/Ordering.Core.pdb
+/workspaces/EShopping/Services/Ordering/Ordering.Core/obj/Debug/net8.0/ref/Ordering.Core.dll
