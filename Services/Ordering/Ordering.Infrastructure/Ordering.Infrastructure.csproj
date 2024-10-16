@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Oredering.Application\Oredering.Application.csproj" />
+    <ProjectReference Include="../Oredering.Application/Ordering.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -10,6 +10,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions/" />
   </ItemGroup>
 
   <PropertyGroup>

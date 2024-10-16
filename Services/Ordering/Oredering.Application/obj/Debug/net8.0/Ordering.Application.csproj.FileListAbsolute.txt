@@ -1,0 +1,16 @@
+/workspaces/EShopping/Services/Ordering/Oredering.Application/bin/Debug/net8.0/Ordering.Application.deps.json
+/workspaces/EShopping/Services/Ordering/Oredering.Application/bin/Debug/net8.0/Ordering.Application.dll
+/workspaces/EShopping/Services/Ordering/Oredering.Application/bin/Debug/net8.0/Ordering.Application.pdb
+/workspaces/EShopping/Services/Ordering/Oredering.Application/bin/Debug/net8.0/Ordering.Core.dll
+/workspaces/EShopping/Services/Ordering/Oredering.Application/bin/Debug/net8.0/Ordering.Core.pdb
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.Application.csproj.AssemblyReference.cache
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfoInputs.cache
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfo.cs
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.Application.csproj.CoreCompileInputs.cache
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.Application.sourcelink.json
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.50CBBEA9.Up2Date
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.Application.dll
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/refint/Ordering.Application.dll
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/Ordering.Application.pdb
+/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/Debug/net8.0/ref/Ordering.Application.dll

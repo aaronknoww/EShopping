@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/EShopping/Services/Ordering/Oredering.Application/Oredering.Application.csproj",
-      "projectName": "Oredering.Application",
-      "projectPath": "/workspaces/EShopping/Services/Ordering/Oredering.Application/Oredering.Application.csproj",
+      "projectUniqueName": "/workspaces/EShopping/Services/Ordering/Oredering.Application/Ordering.Application.csproj",
+      "projectName": "Ordering.Application",
+      "projectPath": "/workspaces/EShopping/Services/Ordering/Oredering.Application/Ordering.Application.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
       "outputPath": "/workspaces/EShopping/Services/Ordering/Oredering.Application/obj/",
       "projectStyle": "PackageReference",

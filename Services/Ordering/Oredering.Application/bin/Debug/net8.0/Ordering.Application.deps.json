@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ordering.Application/1.0.0": {
+        "dependencies": {
+          "Ordering.Core": "1.0.0"
+        },
+        "runtime": {
+          "Ordering.Application.dll": {}
+        }
+      },
+      "Ordering.Core/1.0.0": {
+        "runtime": {
+          "Ordering.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ordering.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ordering.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

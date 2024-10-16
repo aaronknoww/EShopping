@@ -2,8 +2,6 @@
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.dll
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.pdb
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Core.dll
-/workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Oredering.Application.dll
-/workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Oredering.Application.pdb
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Core.pdb
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.AssemblyReference.cache
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +14,7 @@
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/refint/Ordering.Infrastructure.dll
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.pdb
 /workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/ref/Ordering.Infrastructure.dll
+/workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.runtimeconfig.json
+/workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Application.dll
+/workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Application.pdb
+/workspaces/EShopping/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.genruntimeconfig.cache
