@@ -4,6 +4,14 @@
     <ProjectReference Include="..\Ordering.Core\Ordering.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands/" />
+    <Folder Include="Extensions/" />
+    <Folder Include="Handlers/" />
+    <Folder Include="Queries/" />
+    <Folder Include="Responses/" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
