@@ -1,15 +1,19 @@
 using System;
-using System.Data;
 using FluentValidation;
 using Ordering.Application.Commands;
 
 namespace Ordering.Application.Validators;
 
-public class CheckoutOrderCommandValidator : AbstractValidator<CheckoutOrderCommand>
+public class UpdateOrderCommandsValidator : AbstractValidator<UpdateOrderCommands>
 {
-    public CheckoutOrderCommandValidator()
+    public UpdateOrderCommandsValidator()
     {
-        
+        RuleFor(o => o.Id)
+            .NotEmpty()
+            .NotNull()
+            .WithMessage("{Id} is required")
+            .GreaterThan(0)
+            .WithMessage("{Id} cannot be -ve");
         RuleFor(o => o.UserName)
             .NotEmpty()
             .WithMessage("{UserName} is required")
@@ -36,6 +40,7 @@ public class CheckoutOrderCommandValidator : AbstractValidator<CheckoutOrderComm
             .NotEmpty()
             .NotNull()
             .WithMessage("{LastName} is required");
+        
     }
 
 }
