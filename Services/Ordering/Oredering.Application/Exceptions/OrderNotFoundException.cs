@@ -1,6 +1,6 @@
 using System;
 
-namespace Ordering.Application.Exceptions;
+namespace Ordering.Application.Extensions;
 
 public class OrderNotFoundException : ApplicationException
 {

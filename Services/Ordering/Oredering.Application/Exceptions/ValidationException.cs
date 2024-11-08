@@ -1,7 +1,7 @@
 using System;
 using FluentValidation.Results;
 
-namespace Ordering.Application.Exceptions;
+namespace Ordering.Application.Extensions;
 
 public class ValidationException : ApplicationException
 {
