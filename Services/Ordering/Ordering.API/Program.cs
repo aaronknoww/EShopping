@@ -76,7 +76,7 @@ var app = builder.Build();
 //Apply db migration
 app.MigrateDatabase<OrderContext>((context, services) =>
 {
-    var logger = services.GetService<ILogger<OrderContextSeed>>();
+    ILogger<OrderContextSeed>? logger = services.GetService<ILogger<OrderContextSeed>>();
     OrderContextSeed.SeedAsync(context, logger).Wait();
 });
 // Configure the HTTP request pipeline.
