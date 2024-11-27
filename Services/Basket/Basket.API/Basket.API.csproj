@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../../../Infrastructure/Common.Loggin/Common.Loggin/Common.Loggin.csproj" />
     <ProjectReference Include="..\Basket.Infrastructure\Basket.Infrastructure.csproj" />
     <ProjectReference Include="..\Basket.Application\Basket.Application.csproj" />
   </ItemGroup>

@@ -423,6 +423,16 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Common.Loggin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Common.Loggin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Loggin.dll": {}
+        }
+      },
       "Discount.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1313,6 +1323,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Common.Loggin/1.0.0": {
+      "type": "project",
+      "path": "../../../Infrastructure/Common.Loggin/Common.Loggin/Common.Loggin.csproj",
+      "msbuildProject": "../../../Infrastructure/Common.Loggin/Common.Loggin/Common.Loggin.csproj"
+    },
     "Discount.Application/1.0.0": {
       "type": "project",
       "path": "../Discount.Application/Discount.Application.csproj",
@@ -1331,6 +1346,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Common.Loggin >= 1.0.0",
       "Discount.Application >= 1.0.0",
       "Discount.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.7",
@@ -1362,6 +1378,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/workspaces/EShopping/Infrastructure/Common.Loggin/Common.Loggin/Common.Loggin.csproj": {
+              "projectPath": "/workspaces/EShopping/Infrastructure/Common.Loggin/Common.Loggin/Common.Loggin.csproj"
+            },
             "/workspaces/EShopping/Services/Discount/Discount.Application/Discount.Application.csproj": {
               "projectPath": "/workspaces/EShopping/Services/Discount/Discount.Application/Discount.Application.csproj"
             },

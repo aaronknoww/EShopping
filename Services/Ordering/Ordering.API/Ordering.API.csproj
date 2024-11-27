@@ -25,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../../../Infrastructure/Common.Loggin/Common.Loggin/Common.Loggin.csproj" />
     <ProjectReference Include="../Oredering.Application/Ordering.Application.csproj" />
     <ProjectReference Include="..\Ordering.Infrastructure\Ordering.Infrastructure.csproj" />
   </ItemGroup>
